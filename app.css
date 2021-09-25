@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: darkorange;
+}
+h1{
+    text-align: center;
+    margin: auto;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem 1rem;
+}
+
+label{
+margin: 2rem;
+text-align: center;
+padding: 1rem;
+text-size-adjust: bold;
+
+}
+#date-of-birth{
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+#lucky-number{
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+#chk-btn{
+    width: 10%;
+    text-align: center;
+    margin: auto;
+    padding: 0.2rem;
+    margin-top: 2rem;
+}
