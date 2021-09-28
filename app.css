@@ -4,11 +4,25 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     background-color: darkorange;
 }
+nav{
+    background-color: darkred;
+    border-radius: 2rem 2rem;
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+    padding: 2rem
+}
 h1{
     text-align: center;
     margin: auto;
 }
 
+.info{
+    
+    text-align: center;
+    margin: auto;
+    
+}
 .container{
     text-align: center;
     display: flex;
@@ -48,4 +62,28 @@ text-size-adjust: bold;
     padding: 2rem;
     
 
+}
+footer{
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+    width: 60%;
+    background-color: darkred;
+    border-radius: 2rem 2rem;
+}
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+.link{
+    color: white;
+}
+.social-links{
+    text-align: center;
+    
+}
+.list-item-inline{
+    list-style: none;
+    padding: 1rem 1rem;
+    display: inline;
 }
